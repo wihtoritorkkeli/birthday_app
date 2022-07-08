@@ -6,19 +6,7 @@ function Home(){
         <div className="margin-zero">
             <div className="heroBanner">
                 <h1>Welcome to <br/>W &amp; S birthday party app!</h1>
-                <p className="valueProp">Find all the information needed to have a great time</p>
-            </div>
-            <div className="basicInfo">
-                <h2>Warm welcome to the party!</h2>
-                <p>Hope you packed enough energy and liquids with you, because tonight is going to be a long night</p>
-                <p>Here's a quick review of tonights intinirary:</p>
-                <ul className="alignLeft">
-                    <li>Fashion Show and introductions</li>
-                    <li>Birthday Sitsit &#40;Including Oscar Awards&#41;</li>
-                    <li>Other fun activities</li>
-                </ul>
-                <br/>
-                <h3>Check usefull links from below:</h3>
+                <p className="valueProp">From here you can find all the information you need</p>
             </div>
             <div className="container">
                 <Link to="/location" className="link"><div className="linkBox" id="location">
