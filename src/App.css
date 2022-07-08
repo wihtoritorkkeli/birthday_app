@@ -1,0 +1,224 @@
+.App{
+  margin: 0px;
+  padding: 0px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: black;
+}
+.margin-zero{
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  background-color: #202020;
+}
+.footer{
+  margin: 0px;
+  width: 100%;
+  position:relative;
+  bottom:0px;
+  background-color: black;
+  border-style: solid;
+  border-color: gold;
+  border-width: 0.1px;
+}
+.footer-text{
+  color: gold;
+  text-align: center;
+  padding: 5%;
+}
+
+.App-header{
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  background-color: #202020;
+  padding: 2.5%;
+  margin: 0px;
+  border-style: solid;
+  border-color: gold;
+  border-width: 0.1px;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.navLink{
+  color: gold;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.hide-on-default{
+  padding: 2%;
+}
+
+.linkBox{
+  color:white;
+  padding: 20%;
+  text-align: center;
+  border-style: solid;
+  border-color: gold;
+  border-width: 1px;
+  text-shadow: 0px 0px 8px #76520E;
+}
+
+#location{
+  background-image: url("./images/helsinki-map.jpg"), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+}
+
+#sitsit{
+  background-image: url("./images/Sitsit.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+}
+
+#lappi{
+  background-image: url("./images/lappi.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-text{
+  color:gold;
+  font-size: 1.5em;
+  width: 100%;
+  text-decoration: none;
+  text-shadow: 0px 0px 8px #76520E;
+}
+.hamburger{
+  width: 10%;
+  float: right;
+  padding: 0% 5% 0% 5%;
+  display: inline;
+}
+
+.heroBanner{
+  padding: 2%;
+  background-image: url("./images/golden\ background.webp"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background-blend-mode: overlay;
+}
+
+h1{
+  margin: 10%;
+  font-size: 2em;
+  text-align: center;
+  color: gold;
+  text-shadow: 0px 0px 8px #76520E;
+}
+
+.valueProp{
+  color:white;
+  text-align: center;
+  padding: 2%;
+  font-size: 1.2em;
+  text-shadow: 0px 0px 8px #76520E;
+}
+
+@media only screen and (max-width:480px){
+  .hide-on-default{
+    display: none;
+  }
+  
+  .heroBanner{
+    padding: 2%;
+    background-image: url("./images/golden\ background.webp"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+  }
+
+  h1{
+    margin: 10%;
+    padding: 50% 5% 5% 5%;
+    font-size: 2em;
+    text-align: center;
+    color: gold;
+    text-shadow: 0px 0px 8px #76520E;
+  }
+
+  .valueProp{
+    color:white;
+    text-align: center;
+    margin: 10%;
+    padding: 2%;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 8px #76520E;
+    padding-bottom: 50%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 879px){
+  .hide-on-default{
+    display: none;
+  }
+  
+  h1{
+    margin: 10%;
+    padding: 30% 5% 2% 5%;
+    font-size: 2em;
+    text-align: center;
+    color: gold;
+    text-shadow: 0px 0px 8px #76520E;
+  }
+
+  .valueProp{
+    color:white;
+    text-align: center;
+    margin: 10%;
+    padding: 1%;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 8px #76520E;
+    padding-bottom: 20%;
+  }
+}
+
+@media only screen and (min-width: 880px){
+  .hamburger{
+    display: none;
+  }
+  h1{
+    margin: 20px;
+    padding: 300px 5% 0px 5%;
+    font-size: 2em;
+    text-align: center;
+    color: gold;
+    text-shadow: 0px 0px 8px #76520E;
+  }
+
+  .valueProp{
+    color:white;
+    text-align: center;
+    margin:0px;
+    padding: 0%;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 8px #76520E;
+    margin-bottom: 200px;
+  }
+
+  .container{
+    display: flex;
+    flex-flow: wrap;
+  }
+  .linkBox{
+    margin: auto;
+    padding: 100px 0px 100px 0px; 
+    width: 100%;
+  }
+  .link{
+    width: 33.3%;
+  }
+  .hide-on-default{
+    float: right;
+    padding: 20px;
+    margin: -15px 50px 20px 50px;
+  }
+  .navLink{padding: 10px;}
+  .App-header{padding: 20px;}
+}
