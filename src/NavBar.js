@@ -11,10 +11,11 @@ function NavBar(){
     };
 
     return(<div className="App-header">
-        <p><Link to="/" className="header-text"><b>W &amp; S Birthday Bash</b></Link> <span className="hide-on-default"><Link to="/location" className="navLink">Location</Link> <Link to="/sitsit" className="navLink">Sitsit</Link></span><img src={hamburger} className="hamburger" onClick={handleClick}></img></p>
+        <p><Link to="/" className="header-text"><b>W &amp; S Birthday Bash</b></Link> <span className="hide-on-default"><Link to="/location" className="navLink">Location</Link> <Link to="/sitsit" className="navLink">Sitsit</Link> <Link to="/lappi" className="navLink">Lapin Energiaa</Link></span><img src={hamburger} className="hamburger" onClick={handleClick}></img></p>
         {navOn && (<div>
                 <p className="navLink"><Link to="/location" className="navLink">Location</Link></p>
                 <p className="navLink"><Link to="/sitsit" className="navLink">Sitsit</Link></p>
+                <p className="navLink"><Link to="/lappi" className="navLink">Lapin Energiaa</Link></p>
         </div>)}        
     </div>);
 }

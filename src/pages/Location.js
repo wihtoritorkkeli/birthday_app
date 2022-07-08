@@ -2,8 +2,9 @@ import React from "react";
 
 function Location(){
     return(
-        <div>
-            <h1>See the location info</h1>
+        <div className="locationBanner">
+            <h1>Usefull locations</h1>
+            <p className="valueProp">Check usefull locaiton infromation from this page</p>
         </div>
     );
 }
