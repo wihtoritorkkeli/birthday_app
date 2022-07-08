@@ -19,6 +19,7 @@ function Home(){
                 </ul>
                 <br/>
                 <h3>Check usefull links from below:</h3>
+                <br/>
             </div>
             <div className="container">
                 <Link to="/location" className="link"><div className="linkBox" id="location">
