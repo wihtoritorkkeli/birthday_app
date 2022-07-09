@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: black;
+  background-color: #10002B;
 }
 .margin-zero{
   margin: 0px;
@@ -10,7 +10,7 @@
 }
 
 html{
-  background-color: #202020;
+  background-color: #10002B;
 }
 .footer{
   margin: 0px;
@@ -33,7 +33,7 @@ html{
   position: fixed;
   top: 0%;
   width: 100%;
-  background-color: #202020;
+  background-color:#240046;
   padding: 2.5%;
   margin: 0px;
   border-style: solid;

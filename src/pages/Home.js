@@ -28,7 +28,7 @@ function Home(){
                 <Link to="/sitsit" className="link"><div className="linkBox" id="sitsit">
                     <h2>Sitsit</h2>
                 </div></Link>
-                <Link to="/location" className="link"><div className="linkBox" id="lappi">
+                <Link to="/lappi" className="link"><div className="linkBox" id="lappi">
                     <h2>Lapin Energiaa</h2>
                 </div></Link>
             </div>
