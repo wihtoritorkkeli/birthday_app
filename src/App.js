@@ -5,6 +5,8 @@ import Location from './pages/Location';
 import Sitsit from './pages/Sitsit';
 import {Route, Link, Routes} from 'react-router-dom';
 import Lappi from './pages/Lappi';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHouseChimney } from "@fortawesome/free-solid-svg-icons";
 
 
 function App() {

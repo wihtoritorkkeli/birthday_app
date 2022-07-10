@@ -22,6 +22,10 @@ h1{
   font-size: 2em;
 }
 
+.homeLink{
+  margin: 20px;
+}
+
 html{
   background-image: url("./images/purpleBack.jpg"), linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
   background-blend-mode: overlay;
@@ -42,7 +46,7 @@ html{
 
 @media only screen and (max-width: 480px){
   .front-page{
-    margin-top: calc(60%)
+    margin-top: calc(40%)
   }
 
   .fp-btn{
@@ -53,7 +57,7 @@ html{
 
 @media only screen and (min-width: 481px) and (max-width: 880px){
   .front-page{
-    margin-top: 30%;
+    margin-top: 25%;
   }
   .fp-btn{
     padding: 15px;
@@ -63,7 +67,7 @@ html{
 
 @media only screen and (min-width: 881px){
   .front-page{
-    margin-top: 18%;
+    margin-top: 15%;
   }
   .fp-btn{
     padding: 15px;
