@@ -1,6 +1,0 @@
-.locationBanner{
-    background-image: url("./images/helsinki-map.jpg"), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
-  background-blend-mode: overlay;
-  background-position: center;
-  background-size: cover;
-}
