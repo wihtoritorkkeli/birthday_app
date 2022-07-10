@@ -69,7 +69,7 @@ function Location(){
                         <tr>
                             <td>
                                 <h2 className="locationName">Töölönlahden tapahtumapuisto</h2>
-                                <p className="infotext">We'll meet somewhere infornt of Oodi -library</p>
+                                <p className="infotext">We'll meet somewhere infront of Oodi -library</p>
                             </td>
                             <td>
                                 <ParkMap/>
@@ -84,7 +84,7 @@ function Location(){
                         <tr>
                             <td>
                                 <h2 className="locationName">Public Bathrooms</h2>
-                                <p className="infotext">Option 1: Central Metro station -nearest<br/>Option 2: Museokatu 3</p>
+                                <p className="infotext">Option 1: Central Metro station<br/>Option 2: Museokatu 3</p>
                             </td>
                             <td>
                                 <WcMap/>
@@ -99,7 +99,7 @@ function Location(){
                         <tr>
                             <td>
                                 <h2 className="locationName">Grocery Stores</h2>
-                                <p className="infotext">Option 1: K-Market Postitalo &#40;6-30am-11pm&#41;<br/>Option 2: S-Market Sokos &#40;24/7&#41; </p>
+                                <p className="infotext">Option 1: K-Market Postitalo <br/>&#40;6-30am-11pm&#41;<br/>Option 2: S-Market Sokos <br/>&#40;24/7&#41; </p>
                             </td>
                             <td>
                                 <StoreMap/>
