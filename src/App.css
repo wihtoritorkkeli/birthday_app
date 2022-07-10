@@ -15,7 +15,11 @@ h1{
   text-shadow: 0px 0px 7px #9D4EDD;
   font-size: 3em;
   padding: 2%;
+  color: white;
+}
 
+.locationH1{
+  font-size: 2em;
 }
 
 html{
