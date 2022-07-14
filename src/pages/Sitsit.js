@@ -2,11 +2,13 @@ import React, {useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouseChimney } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import Helan from "./songs/Helan";
 
 function Sitsit(){
 
     const [saannot, setSaannot] =useState(false);
     const [songs, setSongs] =useState(false);
+    const [helan , setHelan] =useState(false);
 
     return(
         <div>
@@ -44,7 +46,8 @@ function Sitsit(){
                 <h2>Songs</h2>
             </div>
             {songs? (<div className="songs">
-                <h2>songs here</h2>
+                <div className="songList" onClick={()=>{setHelan(!helan)}}><p>Helan Gård</p></div>
+                {helan?(<Helan onClick={()=>{setHelan(!helan)}}/>):null}
             </div>):null}
             
         </div>
