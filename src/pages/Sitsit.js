@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Helan from "./songs/Helan";
 import Aqua from "./songs/Aqua";
 import Sailor from "./songs/Sailor";
+import Beers from "./songs/Beers";
 
 
 function Sitsit(){
@@ -14,6 +15,7 @@ function Sitsit(){
     const [helan , setHelan] =useState(false);
     const [aqua, setAqua] = useState(false);
     const [sailor, setSailor] = useState(false);
+    const [beers, setBeers] = useState(false);
 
     return(
         <div>
@@ -52,11 +54,13 @@ function Sitsit(){
             </div>
             {songs? (<div className="songs">
                 <div className="songList" onClick={()=>{setHelan(!helan)}}><p>45. Helan Gård</p></div>
-                {helan?(<p onClick={()=>{setHelan(!helan)}} className="song"><Helan/></p>):null}
+                {helan?(<div onClick={()=>{setHelan(!helan)}} className="song"><Helan/></div>):null}
                 <div className="songList" onClick={()=>{setAqua(!aqua)}}><p>107. Aqua vera</p></div>
-                {aqua? (<p onClick={()=> {setAqua(!aqua)}} className="song"><Aqua/></p>):null}
+                {aqua? (<div onClick={()=> {setAqua(!aqua)}} className="song"><Aqua/></div>):null}
                 <div className="songList" onClick={()=>{setSailor(!sailor)}}><p>Drunken Sailor</p></div>
-                {sailor? (<p onClick={()=> {setSailor(!sailor)}} className="song"><Sailor/></p>):null}
+                {sailor? (<div onClick={()=> {setSailor(!sailor)}} className="song"><Sailor/></div>):null}
+                <div className="songList" onClick={()=>{setBeers(!beers)}}><p>99 bottles of beer</p></div>
+                {beers? (<div onClick={()=> {setBeers(!beers)}} className="song"><Beers/></div>):null}
             </div>):null}
             
         </div>
