@@ -3,12 +3,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouseChimney } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import Helan from "./songs/Helan";
+import Aqua from "./songs/Aqua";
 
 function Sitsit(){
 
     const [saannot, setSaannot] =useState(false);
     const [songs, setSongs] =useState(false);
     const [helan , setHelan] =useState(false);
+    const [aqua, setAqua] = useState(false);
 
     return(
         <div>
@@ -46,8 +48,10 @@ function Sitsit(){
                 <h2>Songs</h2>
             </div>
             {songs? (<div className="songs">
-                <div className="songList" onClick={()=>{setHelan(!helan)}}><p>Helan Gård</p></div>
-                {helan?(<Helan onClick={()=>{setHelan(!helan)}}/>):null}
+                <div className="songList" onClick={()=>{setHelan(!helan)}}><p>45. Helan Gård</p></div>
+                {helan?(<p onClick={()=>{setHelan(!helan)}} className="song"><Helan/></p>):null}
+                <div className="songList" onClick={()=>{setAqua(!aqua)}}><p>107. Aqua vera</p></div>
+                {aqua? (<p onClick={()=> {setAqua(!aqua)}} className="song"><Aqua/></p>):null}
             </div>):null}
             
         </div>
