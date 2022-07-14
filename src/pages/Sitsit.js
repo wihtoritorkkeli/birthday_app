@@ -6,6 +6,7 @@ import Helan from "./songs/Helan";
 import Aqua from "./songs/Aqua";
 import Sailor from "./songs/Sailor";
 import Beers from "./songs/Beers";
+import Ants from "./songs/Ants";
 
 
 function Sitsit(){
@@ -16,6 +17,7 @@ function Sitsit(){
     const [aqua, setAqua] = useState(false);
     const [sailor, setSailor] = useState(false);
     const [beers, setBeers] = useState(false);
+    const [ants, setAnts] = useState(false);
 
     return(
         <div>
@@ -61,6 +63,8 @@ function Sitsit(){
                 {sailor? (<div onClick={()=> {setSailor(!sailor)}} className="song"><Sailor/></div>):null}
                 <div className="songList" onClick={()=>{setBeers(!beers)}}><p>99 bottles of beer</p></div>
                 {beers? (<div onClick={()=> {setBeers(!beers)}} className="song"><Beers/></div>):null}
+                <div className="songList" onClick={()=>{setAnts(!ants)}}><p>Ants go marching</p></div>
+                {ants? (<div onClick={()=> {setAnts(!ants)}} className="song"><Ants/></div>):null}
             </div>):null}
             
         </div>
