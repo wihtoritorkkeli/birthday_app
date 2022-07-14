@@ -24,7 +24,8 @@ function Sitsit(){
                     <li>You can only sit with the permission from the toastmasters</li>
                     <li>Toastmasters word is the law: <ul>
                         <li>When a toastmaster speaks, everyone will be quiet and listen</li>
-                        </ul>Everyone will obey toastmasters instructions etc.</li>
+                        <li>Everyone will obey toastmasters instructions etc.</li>
+                        </ul></li>
                     <li>Don't leave the "table" without a permission from toastmasters</li>
                     <li>No talking without the permission from toastmasters</li>
                     <li>Phone can only be used to take pictures, videos, etc. and to follow our sitsi songs</li>
