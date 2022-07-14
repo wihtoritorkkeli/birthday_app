@@ -2,7 +2,7 @@ import React from "react";
 
 function Helan(){
     return(
-        <div className="song">
+        <div>
             <p>
             Helan går<br/>
             Sjung hopp faderallan lallan lej<br/>

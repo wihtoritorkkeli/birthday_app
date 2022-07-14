@@ -4,6 +4,8 @@ import { faHouseChimney } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import Helan from "./songs/Helan";
 import Aqua from "./songs/Aqua";
+import Sailor from "./songs/Sailor";
+
 
 function Sitsit(){
 
@@ -11,6 +13,7 @@ function Sitsit(){
     const [songs, setSongs] =useState(false);
     const [helan , setHelan] =useState(false);
     const [aqua, setAqua] = useState(false);
+    const [sailor, setSailor] = useState(false);
 
     return(
         <div>
@@ -52,6 +55,8 @@ function Sitsit(){
                 {helan?(<p onClick={()=>{setHelan(!helan)}} className="song"><Helan/></p>):null}
                 <div className="songList" onClick={()=>{setAqua(!aqua)}}><p>107. Aqua vera</p></div>
                 {aqua? (<p onClick={()=> {setAqua(!aqua)}} className="song"><Aqua/></p>):null}
+                <div className="songList" onClick={()=>{setSailor(!sailor)}}><p>Drunken Sailor</p></div>
+                {sailor? (<p onClick={()=> {setSailor(!sailor)}} className="song"><Sailor/></p>):null}
             </div>):null}
             
         </div>
