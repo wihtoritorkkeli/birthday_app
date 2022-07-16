@@ -55,7 +55,7 @@ function Sitsit(){
                 <h2>Songs</h2>
             </div>
             {songs? (<div className="songs">
-                <div className="songList" onClick={()=>{setHelan(!helan)}}><p>45. Helan Gård</p></div>
+                <div className="songList" onClick={()=>{setHelan(!helan)}}><p>45. Helan Går</p></div>
                 {helan?(<div onClick={()=>{setHelan(!helan)}} className="song"><Helan/></div>):null}
                 <div className="songList" onClick={()=>{setAqua(!aqua)}}><p>107. Aqua vera</p></div>
                 {aqua? (<div onClick={()=> {setAqua(!aqua)}} className="song"><Aqua/></div>):null}
